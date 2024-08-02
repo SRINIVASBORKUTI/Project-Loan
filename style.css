@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #f6f7f9;
+}
+/*Header Styles*/
+
+
+/*Navbar Styles*/
+
+
+/*Main Menu Styles*/
+#banner{
+    background: url('Images/img5.jpg') no-repeat;
+    background-size: 100% 100%;
+    padding: 130px;
+}
+
+.banner-content{
+    color: white;
+}
+button{
+    color:black;
+    background-color: white;
+    padding: 2px;
+    border-radius: 36%;
+    
+}
+button:hover{
+    color: hotpink;
+}
+
+.title{
+
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    word-spacing: 2px;
+    
+}
+
+.line{
+    border: 2px solid rgb(0, 255, 115);
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.offer .row .col{
+    width: 33.33%;
+}
+
+.offer .row .card-body{
+    background: white;
+    padding: 40px 30px;
+}
+.offer .row .card{
+    margin: 20px;
+    box-shadow:0 0 rgb(33, 30, 30) ;
+}
+.offer .row{
+    display: flex;
+}
+
+.offer i{
+    color:hotpink;
+}
+.offer .row .card h1{
+    margin: 10px 0px;
+}
+
+
+/*Appication Styles*/
+
+#application h4{
+border: 2px solid white;
+padding: 10px;
+width: 608px;
+font-size:18px;
+}
+
+#application .row .col{
+    width: 40%;
+    margin: 20px;
+}
+
+#application .row{
+    display: flex;
+}
+
+#application .card-body{
+    border: 2px solid white;
+    word-spacing: 4px;
+    background-color:white;
+    margin-bottom: 26px;
+    padding:2px;
+    margin: 20px 0px;
+}
+
+#application .row .col .card .card-header>h4>i{
+    color: blue;
+}
+
+
+
+/*News Styles */
+#news .row .col{
+width: 33.33%;
+border: 2px solid white;
+padding: 20px;
+}
+#news .row{
+    display: flex;
+}
+
+#news .footer{
+    border: 2px solid rgb(117, 23, 23);
+    text-align: center;
+    background-color: rgb(64, 3, 3);
+    color: aliceblue;
+}
+#news .row .col img{
+    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+
+#news .row .col .card h3{
+    color: red;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#news .row .col .card p{
+    margin-bottom: 20px;
+}
+
+
+
+/*Footer Styles*/
+#footer{
+    background-color: black;
+    color: #f6f7f9;
+}
+#footer .row{
+    width:100%;
+    display: flex;
+    padding: 40px;
+    word-spacing: 4px;
+
+}
+#footer .row .col{
+    border: 2px solid black;
+    width: 25%;
+}
+
+#footer .row h2{
+    margin-bottom: 30px;
+}
+
+#footer h5{
+    color: red;
+    margin-bottom: 10px;
+}
+
+#footer img{
+    display: block;
+}
+#nav{
+    background-color:red;
+    color: aliceblue;
+    justify-items: center;
+    padding: 6px;
+}
+i:hover{
+    background-color:lightgreen;
+}
+ 
+
+
+/*Header Styles*/
+
+
+nav>ol{
+    border: 2px solid red;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    background-color:red;
+    justify-items: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+ }
+ 
+ nav>ol>li{
+    padding: 20px;
+    justify-items: center;
+ }
+
+ .ss{
+    margin-right: auto;
+    
+ }
+
+ a:hover{
+    background-color: blue;
+    padding: 10px;
+ }
+ .ss:hover{
+    background-color: chartreuse;
+ }
+/*Footer Styles*/
+
+h1{
+    margin-bottom: 20px;
+}
+
